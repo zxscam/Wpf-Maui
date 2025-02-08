@@ -1,0 +1,15 @@
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\bin\Debug\MiftievAuthorizationApp.exe.config
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\bin\Debug\MiftievAuthorizationApp.exe
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\bin\Debug\MiftievAuthorizationApp.pdb
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.csproj.AssemblyReference.cache
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MainWindow.g.cs
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\App.g.cs
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp_MarkupCompile.cache
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp_MarkupCompile.lref
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MainWindow.baml
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.g.resources
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.Properties.Resources.resources
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.csproj.GenerateResource.cache
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.csproj.CoreCompileInputs.cache
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.exe
+D:\projects\MiftievAuthorizationApp\MiftievAuthorizationApp\obj\Debug\MiftievAuthorizationApp.pdb
