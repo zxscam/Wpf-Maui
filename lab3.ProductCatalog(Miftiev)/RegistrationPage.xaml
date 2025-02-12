@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab3.ProductCatalog_Miftiev_.RegistrationPage"
+             Title="RegistrationPage">
+    <ScrollView>
+        <VerticalStackLayout Spacing="100" Padding="30,0">
+            <Button
+            x:Name="BackBut"
+            Text="&#8656; Назад" 
+            Clicked="BackBut_click"
+            TextColor="Black"
+            BackgroundColor="Beige"
+            FontAttributes="Bold"
+            HorizontalOptions="Start"
+            FontSize="25"/>
+
+
+            <VerticalStackLayout Spacing="20">
+                <Label 
+                Text="Приветствуем вас!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" 
+                VerticalOptions="Center"
+                HeightRequest="60"
+                HorizontalOptions="Center" />
+                <Label
+                Text="Данная страница предназначена для регистрации аккаунта. Пожалуйста заполните поля ниже и сохраните данные!"
+                VerticalOptions="FillAndExpand"
+                FontSize="16"
+                HorizontalOptions="FillAndExpand"/>
+
+                <Border StrokeThickness="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15" />
+                    </Border.StrokeShape>
+                    <Entry x:Name="RegLog"
+                        Placeholder="Логин"/>
+                </Border>
+
+                <Border StrokeThickness="2">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15" />
+                    </Border.StrokeShape>
+                    <Entry x:Name="RegPass"
+                      IsPassword="true"
+                      Placeholder="Пароль"/>
+
+                </Border>
+
+                <Button
+                    x:Name="SaveBut"
+                    Text="Сохранить" 
+                    Clicked="SaveBut_Clicked"
+                    HorizontalOptions="Fill" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

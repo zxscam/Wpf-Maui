@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab3.ProductCatalog_Miftiev_.MainPage">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            Margin="0,140,0,0">
+
+            <Label
+                Text="Добро пожаловать!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Border StrokeThickness="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15" />
+                </Border.StrokeShape>
+                <Entry x:Name="log"
+                    Placeholder="Логин"/>
+            </Border>
+
+            <Border StrokeThickness="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15" />
+                </Border.StrokeShape>
+                <Entry x:Name="pas"
+                     Placeholder="Пароль"
+                     IsPassword="true"/>
+            </Border>
+
+            <Button
+                x:Name="InBut"
+                Text="Войти" 
+                Clicked="InBut_Clicked"
+                HorizontalOptions="Fill" />
+            
+            <VerticalStackLayout Spacing="-12">
+                <Label
+                    Text="нет акааунта?"
+                    HorizontalTextAlignment="Center" />
+
+                <Button
+                     x:Name="RegBut"
+                     Text="Регистрация" 
+                     Clicked="RegBut_click"
+                     TextColor="Black"
+                     BackgroundColor="Transparent"
+                     FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
