@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lab9.MVVMTransferData(Miftiev)</name>
+    </assembly>
+    <members>
+        <member name="T:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.ClassroomName">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel._classroomName"/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.TeatcherName">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel._teatcherName"/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.SubjectName">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel._subjectName"/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.StartAt">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel._startAt"/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.EndAt">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel._endAt"/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.OutputLesson">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel._outputLesson"/>
+        </member>
+        <member name="F:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.goToSecondViewCommand">
+            <summary>The backing field for <see cref="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.GoToSecondViewCommand"/>.</summary>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.GoToSecondViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab9.MVVMTransferData_Miftiev_.ViewModels.FirstViewModel.GoToSecondViewAsync"/>.</summary>
+        </member>
+        <member name="T:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel.InputLesson">
+            <inheritdoc cref="F:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel._inputLesson"/>
+        </member>
+        <member name="F:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel.goToFirstViewCommand">
+            <summary>The backing field for <see cref="P:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel.GoToFirstViewCommand"/>.</summary>
+        </member>
+        <member name="P:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel.GoToFirstViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab9.MVVMTransferData_Miftiev_.ViewModels.SecondViewModel.GoToFirstViewAsync"/>.</summary>
+        </member>
+        <member name="T:lab9.MVVMTransferData_Miftiev_.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ClassroomName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ClassroomName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TeatcherName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TeatcherName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SubjectName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SubjectName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartAt">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartAt" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EndAt">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EndAt" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.OutputLesson">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "OutputLesson" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InputLesson">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InputLesson" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ClassroomName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ClassroomName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TeatcherName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TeatcherName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SubjectName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SubjectName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartAt">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartAt" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EndAt">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EndAt" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.OutputLesson">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "OutputLesson" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InputLesson">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InputLesson" generated properties.</summary>
+        </member>
+    </members>
+</doc>

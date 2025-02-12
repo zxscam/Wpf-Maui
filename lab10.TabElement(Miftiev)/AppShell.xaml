@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="lab10.TabElement_Miftiev_.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:lab10.TabElement_Miftiev_"
+    xmlns:views="clr-namespace:lab10.TabElement_Miftiev_.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="lab10.TabElement_Miftiev_">
+
+    <TabBar Route="MenuPage">
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate views:AuthorPage}"
+        Route="AuthorPage"/>
+
+        <Tab Title="Меню" Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate views:MenuPage}"/>
+        </Tab>
+        <Tab Title="Уведомления" Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Notice}"/>
+        </Tab>
+        <Tab Title="Мой профиль" Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate views:MyProfile}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>
