@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab8.MVVMPattern_Miftiev_.Views.MainView"
+             Title="MainView"
+             xmlns:vm="clr-namespace:lab8.MVVMPattern_Miftiev_.ViewModels"
+             x:DataType = "vm:MainViewModel">
+    <VerticalStackLayout
+    Padding="30,0"
+    Spacing="25"
+    Margin="0,140,0,0">
+
+        <Button Text="Показать пользователей"  HorizontalOptions="Fill" Command="{Binding ShowAllUsersCommand}"/>
+
+        <Button Text="Удалить пользователей"  HorizontalOptions="Fill" Command="{Binding ClearUserListPropertiesCommand}"/>
+
+        <Label Text="{Binding LastAction,StringFormat='последнее действие: {0}'}"/>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lab7.HttpRequestsSending_Miftiev_
+build_property.ProjectDir = D:\project\lab7.HttpRequestsSending(Miftiev)\lab7.HttpRequestsSending(Miftiev)\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/AddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.AddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddPage.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/DeletePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.DeletePage.xaml
+build_metadata.AdditionalFiles.TargetPath = DeletePage.xaml
+build_metadata.AdditionalFiles.RelativePath = DeletePage.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/GetProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.GetProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GetProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GetProductPage.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/project/lab7.HttpRequestsSending(Miftiev)/lab7.HttpRequestsSending(Miftiev)/UpdatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lab7.HttpRequestsSending_Miftiev_.UpdatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = UpdatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = UpdatePage.xaml

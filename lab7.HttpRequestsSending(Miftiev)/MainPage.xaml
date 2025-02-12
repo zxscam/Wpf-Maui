@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab7.HttpRequestsSending_Miftiev_.MainPage"
+             xmlns:Entities ="clr-namespace:lab7.HttpRequestsSending_Miftiev_.Entities">
+
+    <VerticalStackLayout Padding="30,0" Spacing="25">
+        <Label Text="Получить Все товары" />
+        <Button Clicked="SendRequestBut" Text="Отправить запрос"/>
+        <Label Text="" x:Name="AnswerRequestInformation" />
+        <Label Text="Все товары" />
+        <Label Text="===========================" />
+
+        <CollectionView x:Name="RequestCV">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout Margin="0,10">
+                        <HorizontalStackLayout Spacing="5">
+                            <Label Text="Идентиикатор:" />
+                            <Label Text="{Binding Id}" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="5">
+                            <Label Text="Заголовок:" />
+                            <Label Text="{Binding Title}" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="5">
+                            <Label Text="Описание" />
+                            <Label Text="{Binding Description}" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="5">
+                            <Label Text="Создан:" />
+                            <Label Text="{Binding CreatedAt, StringFormat='{0}'}" />
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout Spacing="5">
+                            <Label Text="Обновлен:" />
+                            <Label Text="{Binding UpdateAt, StringFormat='{0}'}" />
+                        </HorizontalStackLayout>
+
+                        <BoxView HeightRequest="1" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Label Text="===========================" />
+
+        <Button Clicked="GoToAddPage" Text="добавить продукт"/>
+        <Button Clicked="GoToGetProductPage" Text="Показать продукт"/>
+        <Button Clicked="GoToUpdatePage" Text="обновить продукт"/>
+        <Button Clicked="GoToDeletePage" Text="обновить продукт"/>
+
+    </VerticalStackLayout>
+</ContentPage>

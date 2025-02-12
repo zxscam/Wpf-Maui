@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="lab8.MVVMPattern_Miftiev_.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:lab8.MVVMPattern_Miftiev_"
+    xmlns:views="clr-namespace:lab8.MVVMPattern_Miftiev_.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="lab8.MVVMPattern_Miftiev_">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate views:LoginView}"
+        Route="LoginView" />
+    
+</Shell>

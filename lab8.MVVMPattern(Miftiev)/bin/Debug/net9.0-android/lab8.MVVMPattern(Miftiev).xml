@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lab8.MVVMPattern(Miftiev)</name>
+    </assembly>
+    <members>
+        <member name="T:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.LastAction">
+            <inheritdoc cref="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.lastAction"/>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.UserCount">
+            <inheritdoc cref="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.userCount"/>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.Users">
+            <inheritdoc cref="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.users"/>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.Login">
+            <inheritdoc cref="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.login"/>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.Password">
+            <inheritdoc cref="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.password"/>
+        </member>
+        <member name="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.addUserInListCommand">
+            <summary>The backing field for <see cref="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.AddUserInListCommand"/>.</summary>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.AddUserInListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.AddUserInListAsync"/>.</summary>
+        </member>
+        <member name="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.showAllUsersCommand">
+            <summary>The backing field for <see cref="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.ShowAllUsersCommand"/>.</summary>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.ShowAllUsersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.ShowAllUsersAsync"/>.</summary>
+        </member>
+        <member name="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.clearUserListPropertiesCommand">
+            <summary>The backing field for <see cref="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.ClearUserListPropertiesCommand"/>.</summary>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.ClearUserListPropertiesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.ClearUserListPropertiesAsync"/>.</summary>
+        </member>
+        <member name="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.goToRegPageCommand">
+            <summary>The backing field for <see cref="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.GoToRegPageCommand"/>.</summary>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.GoToRegPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.GoToRegPage"/>.</summary>
+        </member>
+        <member name="F:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.inButCommand">
+            <summary>The backing field for <see cref="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.InButCommand"/>.</summary>
+        </member>
+        <member name="P:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.InButCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:lab8.MVVMPattern_Miftiev_.ViewModels.MainViewModel.InButAsync"/>.</summary>
+        </member>
+        <member name="T:lab8.MVVMPattern_Miftiev_.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LastAction">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LastAction" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Login">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Login" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LastAction">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LastAction" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Login">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Login" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:lab8.MVVMPattern_Miftiev_.ViewModels"
+             x:Class="lab8.MVVMPattern_Miftiev_.Views.LoginView"
+             Title="LoginView"
+             x:DataType = "vm:MainViewModel">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            Margin="0,140,0,0">
+
+            <Label
+                Text="Добро пожаловать!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Border StrokeThickness="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15" />
+                </Border.StrokeShape>
+                <Entry Placeholder="Логин" Text="{Binding Login}" />
+            </Border>
+
+            <Border StrokeThickness="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15" />
+                </Border.StrokeShape>
+                <Entry Placeholder="Пароль"  IsPassword="true" Text="{Binding Password}" />
+            </Border>
+
+            <Button Text="Войти"  HorizontalOptions="Fill" Command="{Binding InButCommand}"/>
+
+            <VerticalStackLayout Spacing="-12">
+                <Label Text="нет акааунта?" HorizontalTextAlignment="Center" />
+
+                <Button Command="{Binding GoToRegPageCommand}"
+                     Text="Регистрация" 
+                     TextColor="Black"
+                     BackgroundColor="Transparent"
+                     FontAttributes="Bold"/>
+
+                <Label Text="{Binding LastAction,StringFormat='последнее действие: {0}'}"/>
+
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
