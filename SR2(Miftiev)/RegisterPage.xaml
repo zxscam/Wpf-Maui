@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SR2_Miftiev_.RegisterPage"
+             Title="RegisterPage">
+    <StackLayout Padding="10">
+        <Entry Placeholder="Фамилия" x:Name="LastNameEntry" />
+        <Entry Placeholder="Имя" x:Name="FirstNameEntry" />
+        <Entry Placeholder="Отчество" x:Name="MiddleNameEntry" />
+        <Entry Placeholder="Логин (телефон или почта)" x:Name="LoginEntry" />
+        <Entry Placeholder="Пароль" IsPassword="True" x:Name="PasswordEntry" />
+        <Button Text="Зарегистрироваться" Clicked="OnRegisterClicked" />
+    </StackLayout>
+</ContentPage>

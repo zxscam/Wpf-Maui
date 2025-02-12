@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SR1_Miftiev_.LoginPage"
+             Title="LoginPage"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Image Source="dotnet_bot.png" Aspect="AspectFill" HeightRequest="1000"/>
+
+        <Frame CornerRadius="20" BackgroundColor="White" Padding="20" Margin="0,200,0,0">
+            <VerticalStackLayout Spacing="15">
+                <Label Text="Добро пожаловать!" FontSize="22" FontAttributes="Bold" HorizontalOptions="Start"/>
+                <Label Text="Войдите чтобы продолжить" FontSize="14" HorizontalOptions="Start"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="email_icon.png" HeightRequest="50" WidthRequest="50" VerticalOptions="Center" Margin="30,0,0,30"/>
+                    <Entry x:Name="usernameEntry" Placeholder="Почта" Keyboard="Email" Grid.Column="1" Margin="30,0,0,32"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="password_icon.jpg" HeightRequest="50" WidthRequest="50" VerticalOptions="Center" Margin="30,0,0,30"/>
+                    <Entry x:Name="passwordEntry" Placeholder="Пароль" IsPassword="{Binding IsPasswordVisible}" Grid.Column="1" Margin="30,0,0,32"/>
+                    <ImageButton x:Name="togglePasswordVisibilityButton"
+                                 Source="{Binding IsPasswordVisible}"
+                                 Clicked="OnTogglePasswordVisibilityClicked"
+                                 Grid.Column="2"
+                                 WidthRequest="10"
+                                 HeightRequest="10"
+                                 BackgroundColor="Transparent"
+                                 Margin="0,0,10,10"/>
+                </Grid>
+
+                <Button Text="ВОЙТИ" BackgroundColor="#F7A604" TextColor="White" Clicked="OnLoginClicked"/>
+                <Button Text="ЗАРЕГИСТРИРОВАТЬСЯ" BackgroundColor="#F7A604" TextColor="White" Clicked="OnRegisterClicked" Margin="0,100,0,0"/>
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

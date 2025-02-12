@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SR1_Miftiev_.RegisterPage"
+             Title="RegisterPage">
+    <Grid>
+        <Image Source="background.jpg" Aspect="AspectFill" HeightRequest="300"/>
+
+        <Frame CornerRadius="30" BackgroundColor="White" Padding="20" Margin="0,200,0,0">
+            <VerticalStackLayout Spacing="15">
+                <Label Text="Создание аккаунта!" FontSize="22" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Начните вашу карьеру с нами" FontSize="14" HorizontalOptions="Center"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="email_icon.png" HeightRequest="20" WidthRequest="20" VerticalOptions="Center"/>
+                    <Entry x:Name="emailEntry" Placeholder="Почта" Keyboard="Email" Grid.Column="1"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="password_icon.png" HeightRequest="20" WidthRequest="20" VerticalOptions="Center"/>
+                    <Entry x:Name="passwordEntry" Placeholder="Пароль" IsPassword="True" Grid.Column="1"/>
+                </Grid>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="password_icon.png" HeightRequest="20" WidthRequest="20" VerticalOptions="Center"/>
+                    <Entry x:Name="confirmPasswordEntry" Placeholder="Повторите пароль" IsPassword="True" Grid.Column="1"/>
+                </Grid>
+
+                <Button Text="ЗАРЕГИСТРИРОВАТЬСЯ" BackgroundColor="#F7A604" TextColor="White" Clicked="OnRegisterClicked"/>
+                <Button Text="ВОЙТИ" BackgroundColor="Transparent" TextColor="#F7A604" Clicked="OnLoginClicked"/>
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>
