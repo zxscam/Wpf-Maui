@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab2.Navigation_Miftiev_.MainPage">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Добро пожаловать!"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Border StrokeThickness="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15" />
+                </Border.StrokeShape>
+                <Entry x:Name="log"
+                    Placeholder="Логин"
+                    TextChanged="log_TextChanged"/>
+            </Border>
+
+            <Border StrokeThickness="2">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="15" />
+                </Border.StrokeShape>
+                <Entry x:Name="pass"
+                     Placeholder="Пароль"
+                     IsPassword="true"
+                     TextChanged="pass_TextChanged"/>
+            </Border>
+
+            <Button
+                x:Name="InBut"
+                Text="Войти" 
+                Clicked="InBut_click"
+                HorizontalOptions="Fill" />
+
+            <VerticalStackLayout Spacing="-12">
+                <Label
+                    Text="нет аккаунта?"
+                    HorizontalTextAlignment="Center" />
+
+                <Button
+                     x:Name="RegBut"
+                     Text="Регистрация" 
+                     Clicked="RegBut_click"
+                     TextColor="Black"
+                     BackgroundColor="Transparent"
+                     FontAttributes="Bold"/>
+            </VerticalStackLayout>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
